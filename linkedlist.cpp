@@ -55,11 +55,11 @@ void LinkedList::push_back(int data)
 
 void LinkedList::DebugPrint() const
 {
-    qDebug() << "Список:\n";
+    qDebug() << "List:\n";
     node* temp;
     if(head == nullptr)
     {
-        qDebug() << "Список пустой!\n";
+        qDebug() << "List is empty!\n";
     }
     else
     {
