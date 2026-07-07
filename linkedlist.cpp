@@ -182,8 +182,9 @@ void LinkedList::remAllMin()
         {
             qDebug() << "Size before removal: " << getSize();
             int tmp = getElement(i);
-            // Передача индекса правильная , поэтому скорее всего удаление на правильно выполняется.
-            removeAt(i); // Также проблема может быть в передачи неверного индекса
+            // Index is passed correctly, so the issue is most likely in the removal logic itself.
+
+            removeAt(i); // The problem may also be caused by passing an incorrect index
             qDebug() << "removed at" << i;
             qDebug() << "removed element: " << tmp;
             qDebug() << "Size after removal: " << getSize();
