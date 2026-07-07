@@ -2,7 +2,7 @@
 
 #include <QApplication>
 
-// Запретить второй раз обрабатывать список
+// Prevent the list from being processed a second time
 
 int main(int argc, char *argv[])
 {
